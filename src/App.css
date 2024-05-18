@@ -1,0 +1,334 @@
+* body{
+background-color: rgb(10, 8, 49);
+}
+
+.background-component {
+  background-image: url("https://spectrum.ieee.org/media-library/less-than-p-greater-than-a-tesla-driver-takes-the-wheel-and-according-to-critics-may-be-taking-more-dangerous-risks-than-the-company-lets-on-if-the-car-does-the-driving-less-than-p-greater-than.jpg?id=34164886");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.nav{
+  background-color:  rgb(10, 8, 49);
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  margin-bottom: 820px;
+}
+.sub
+{
+  margin-right:50px;
+  border-radius: 20px;
+  color:white;
+  background-color:black;
+}
+.reg 
+{
+  border-radius: 20px;
+  color:white;
+  background-color:black;
+  margin-right: 50px;
+}
+.nav h3{
+  color:white;
+}
+.neat 
+{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitNN5yeTCmwXHvXajJSah1dDuglkb03AaJg&usqp=CAU");
+  margin-top:400px;
+  height: 160px;
+  width:200px;
+  padding: 160px;
+  margin-left: auto;
+margin-right: auto;
+position:relative;
+box-shadow: 50px 60px 400px;
+border-radius: 100px;
+opacity: 0.8;
+background-repeat: no-repeat;
+
+}
+.fo 
+{
+  margin-top:20px;
+  position:relative;
+  justify-content: space-between;
+  display: inline-block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input
+{
+  position: relative;
+  margin-left: -50px;
+  height:40px;
+  width:200px;
+  border-radius: 40px;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(19, 25, 2);
+  color:white;
+}
+.bareg
+{
+  background-image: url("https://4.imimg.com/data4/MP/DB/MY-4940798/lorry-truck.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.car-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styling for the car image */
+.car-image {
+  width: 900px; /* Increase the image width as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Styling for the highlighted distance */
+.car-distance-highlight {
+  background-color: #007BFF; /* Background color for highlighting */
+  color: #FFF; /* Text color */
+  padding: 5px; /* Add padding for spacing */
+  border-radius: 5px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 10px; /* Spacing between distance and image */
+}
+
+/* Styling for the Slider component */
+.slick-slider {
+  width: 60%; /* Adjust the width of the carousel */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+/* Styling for the dots in the pagination */
+.slick-dots li button:before {
+  color: #007BFF; /* Color of the pagination dots */
+  font-size: 12px; /* Size of the pagination dots */
+}
+/* Styles for the vibration bar graph container */
+.vibration-bar-graph {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+ /* Background color for the graph container */
+  padding: 10px;
+ 
+
+}
+
+/* Styles for individual vibration bars */
+
+/* VibrationPieChart.css */
+
+.vibration-pie-chart {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the Pie chart */
+.vibration-pie-chart canvas {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+/* App.css */
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+/* VibrationBarGraph.css */
+.vibration-bar-graph {
+  text-align: center;
+  margin: 20px;
+}
+.imga
+{
+  margin-left: 300px;
+}
+.vib 
+{
+  margin-top: 10px;
+}
+.dang 
+{
+  margin-top: 9000px;
+  margin-right: 600px;
+}
+.vibration-bar {
+  width: 10px;
+  height: 20px; /* Adjust the height as needed */
+  background-color: green;
+  margin: 0 auto;
+  transition: height 0.5s;
+  display: inline-block;
+}
+
+.vibration-bar.safe-active {
+  background-color: green;
+}
+
+.vibration-bar.danger-active {
+  background-color: red;
+}
+
+.safety-message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: green;
+  display: inline-block;
+}
+
+.safety-message.danger-active {
+  animation: blinker 1s linear infinite;
+  color: red;
+}
+
+/* VibrationPieChart.css */
+.vibration-pie-chart {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Add this CSS to your stylesheet (e.g., App.css) */
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.alert {
+  text-align: center;
+  border: 5px solid; /* Add the border styles you want here */
+  padding: 10px;
+  margin: 20px auto;
+  display: inline-block;
+  background-color: #fff; /* Change the background color as needed */
+  border-radius: 10px;
+}
+
+.alert img {
+  width: 100%; /* Make the image width 100% of the alert div */
+}
+.seat 
+{
+  margin-top:-1300px;
+}
+/* Map container styles */
+#map {
+  width: 100%;
+  height: 400px;
+}
+
+/* Additional styles for the marker icon (customize as needed) */
+.leaflet-marker-icon {
+  background-color: #FF5733; /* Marker color */
+  border: 2px solid #FFF; /* Marker border color */
+  border-radius: 50%; /* Make it a circle */
+  width: 20px;
+  height: 20px;
+}
+/* App Container */
+.map {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Map Container */
+.MapContainer {
+  height: 500px;
+}
+
+/* Header Styles */
+h1 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* Marker Popup Styles */
+.leaflet-popup-content {
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Marker Popup Title */
+.leaflet-popup-content h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Marker Popup Coordinates */
+.leaflet-popup-content p {
+  margin: 5px 0;
+}
+
+/* Marker Icon */
+.leaflet-marker-icon {
+  background-color: #0074d9; /* Marker icon background color */
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin: -6px -6px 0 0;
+}
+/* map.css */
+.map {
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+}
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.spinner {
+  border: 6px solid rgba(0, 0, 0, 0.1);
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,23 @@
+.smoke-sensor {
+    text-align: center;
+  }
+  
+  .alert {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #f8f9fa;
+  }
+  
+  .bulb {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
