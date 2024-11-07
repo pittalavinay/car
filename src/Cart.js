@@ -6,7 +6,7 @@ import './App.css';
 import VibrationPieChart from './VibrationPieChart';
 import Seatbelt from './Seatbelt';
 import VibrationBarGraph from './VibrationBarGraph';
-import Mappage from './Mappage';
+
 import SmokeSensor from './SmokeSensor';
  // Import the CSS file for the spinner
 
@@ -85,7 +85,7 @@ function Cart() {
           <VibrationPieChart />
           <Seatbelt />
           <SmokeSensor/>
-          <Mappage />
+          
         </>
       )}
     </div>

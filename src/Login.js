@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import { useEffect } from 'react';
 import Cart from './Cart';
 const Login = ({change}) => {
   const [credentials, setCredentials] = useState({
@@ -10,7 +11,6 @@ const Login = ({change}) => {
     const { name, value } = e.target;
     setCredentials({ ...credentials, [name]: value });
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
  

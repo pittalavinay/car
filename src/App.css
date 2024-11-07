@@ -332,3 +332,85 @@ h1 {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+@media  (max-width:740px) {
+
+  * body{
+background-color: rgb(10, 8, 49);
+background-image: url("https://spectrum.ieee.org/media-library/less-than-p-greater-than-a-tesla-driver-takes-the-wheel-and-according-to-critics-may-be-taking-more-dangerous-risks-than-the-company-lets-on-if-the-car-does-the-driving-less-than-p-greater-than.jpg?id=34164886");
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.background-component {
+ 
+
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+}
+.nav{
+  margin-top: 100px;
+  height: 80px;
+  width: 700px;
+  position: fixed;
+  font-size:smaller;
+  display: none;
+}
+.neat 
+{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitNN5yeTCmwXHvXajJSah1dDuglkb03AaJg&usqp=CAU width=10px");
+  margin-top:300px;
+  height: 50px;
+  width:1vw;
+  padding: 160px;
+position:relative;
+box-shadow: 50px 60px 400px;
+border-radius: 100px;
+opacity: 0.8;
+background-repeat: no-repeat;
+
+}
+.fo 
+{
+  margin-top: -70px;
+  margin: auto;
+  position:relative;
+  display: inline-block;
+}
+.input
+{
+  position: relative;
+  height:40px;
+  width:170px;
+  margin-top: -20px;
+  margin-left: -100px;
+  border-radius: 40px;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(19, 25, 2);
+  color:white;
+}
+.sub
+{
+  margin-left:-30px;
+  border-radius: 20px;
+  color:white;
+  background-color:black;
+}
+.reg 
+{
+  border-radius: 20px;
+  color:white;
+  background-color:black;
+  margin-left: -25px;
+}
+}
